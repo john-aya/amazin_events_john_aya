@@ -7,7 +7,7 @@
   <title>Home</title>
   <link rel="icon" type="image/png" href="/images/favicon.png">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">">
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <link rel="stylesheet" href="/style.css">
   
 </head>
@@ -24,7 +24,7 @@
         </div>
       </div>
 
-      <nav class="">
+      <nav class="#">
         <div class="">
 
 
@@ -45,9 +45,6 @@
                 <a class="nav-link text-warning" href="/contact.html">Contact</a>
               </li>
               <li class="nav-item btn btn-outline-dark">
-                <a class="nav-link text-warning" href="/past_events.html">Details</a>
-              </li>
-              <li class="nav-item btn btn-outline-dark">
                 <a class="nav-link text-warning" href="/stats.html">Stats</a>
               </li>
             </ul>
@@ -66,7 +63,7 @@
   <!--la seccion del carrusel  -->
   <section>
 
-    <div id="carouselExampleDark" class="carousel carousel-dark slide">
+    <div id="carouselExampleDark" class="carousel carousel-info slide mb-2">
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
           aria-current="true" aria-label="Slide 1"></button>
@@ -76,23 +73,25 @@
       <div class="carousel-inner">
         <div class="carousel-item active" data-bs-interval="10000">
           <img src="/images/optional_banner_1.jpg" class="d-block" alt="...">
-          <div class="carousel-caption d-none d-md-block fs-2 text-warning">
-            <h5>HOME</h5>
-            <p>Some representative placeholder content for the first slide.</p>
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="d-inline text-bg-danger p-1 fs-2">Gastronomic Events</h5>
+            
           </div>
         </div>
         <div class="carousel-item" data-bs-interval="2000">
           <img src="/images/optional_banner_2.jpg" class="d-block" alt="...">
           <div class="carousel-caption d-none d-md-block">
-            <h5>Second slide label</h5>
-            <p>Some representative placeholder content for the second slide.</p>
+            <h5 class="d-inline text-bg-danger p-1 fs-2">The Best cinema</h5>
+            
+            
           </div>
         </div>
         <div class="carousel-item">
           <img src="/images/optional_banner_3.jpg" class="d-block" alt="...">
           <div class="carousel-caption d-none d-md-block">
-            <h5>Third slide label</h5>
-            <p>Some representative placeholder content for the third slide.</p>
+            <h5 class="d-inline text-bg-danger p-1 fs-2">
+              the amazing places</h5>
+            
           </div>
         </div>
       </div>
@@ -109,9 +108,9 @@
 
 
   <!--esta es la seccion de los checkpoints y el search -->
-  <main>
-    <section>
-      <div id="bigcheck" class="d-flex justify-content-center bg-dark text-white">
+  
+    
+      <div id="bigcheck" class="d-flex justify-content-center bg-dark text-white mb-2">
         <div id="check1" class="d-flex justify-content-between">
           <div id="allcheck1" class="d-flex justify-content text-warning">
             <div class="form-check form-check-inline">
@@ -123,27 +122,24 @@
               <label class="form-check-label" for="inlineCheckbox2">category</label>
             </div>
             <div class="form-check form-check-inline">
-              <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-              <label class="form-check-label" for="inlineCheckbox2">category</label>
+              <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option2">
+              <label class="form-check-label" for="inlineCheckbox3">category</label>
             </div>
+            
             <div class="form-check form-check-inline">
-              <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-              <label class="form-check-label" for="inlineCheckbox2">category</label>
-            </div>
-            <div class="form-check form-check-inline">
-              <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-              <label class="form-check-label" for="inlineCheckbox2">category</label>
+              <input class="form-check-input" type="checkbox" id="inlineCheckbox4" value="option2">
+              <label class="form-check-label" for="inlineCheckbox4">category</label>
             </div>
           </div>
 
-          <form id="form1" class="d-flex" role="search">
+          <form id="form1" class="d-flex justify-content-end" role="search">
             <input class="form" type="search" placeholder="Search" aria-label="Search">
             <button class="btn btn-outline-success text-warning" type="submit">Search</button>
           </form>
 
         </div>
       </div>
-    </section>
+    
 
 
     <!--aqui termina la seccion de los checkpoints y el search -->
@@ -154,12 +150,11 @@
         <div class="card" style="width: 17rem;">
           <img src="/images/cinema.jpg" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-              content.. Some quick example text to build on the card title and make up the bulk of the card's content.
+            <h5 class="card-title">Lets go to the cinema</h5>
+            <p class="card-text">We offer movies that are released in theaters in 3D formats and dynamic chairs for suspense and action movies. You will also have the experience of reliving emotions with films that were successful Oscar winners.
             </p>
             <a href="#" class="btn btn-link text-danger">Price</a>
-            <a href="#" class="btn btn-dark text-warning">Go somewhere</a>
+            <a href="/details.html" class="btn btn-dark text-warning">See More</a>
 
           </div>
         </div>
@@ -167,57 +162,53 @@
         <div class="card" style="width: 17rem;">
           <img src="/images/books.jpg" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-              content. Some quick example text to build on the card title and make up the bulk of the card's content.
+            <h5 class="card-title">Book Fairs</h5>
+            <p class="card-text">We link with book fair events so you can enjoy the reading you like. You will find works by recognized writers and others who have left their work during their lifetime, Nobel Prize winners in literature and best sellers.
             </p>
             <a href="#" class="btn btn-link text-danger">Price</a>
-            <a href="#" class="btn btn-dark text-warning">Go somewhere</a>
+            <a href="/details.html" class="btn btn-dark text-warning">See More</a>
           </div>
         </div>
 
         <div class="card" style="width: 17rem;">
           <img src="/images/costume_party.jpg" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-              content. Some quick example text to build on the card title and make up the bulk of the card's content.
-            </p>
+            <h5 class="card-title">Juggling</h5>
+            <p class="card-text">Enjoy the entertainment shows of the best jugglers ever seen. They perform artistic displays of skill using cones, hoops, ropes, ribbons, balls, stilts, bicycles and others. We also offer gymnastics and illusion magic presentations.</p>
             <a href="#" class="btn btn-link text-danger">Price</a>
-            <a href="#" class="btn btn-dark text-warning">Go somewhere</a>
+            <a href="/details.html" class="btn btn-dark text-warning">See More</a>
           </div>
         </div>
 
         <div class="card" style="width: 17rem;">
           <img src="/images/food_fair.jpg" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-              content. Some quick example text to build on the card title and make up the bulk of the card's content.
+            <h5 class="card-title">Food Fair</h5>
+            <p class="card-text">Here you will find various international cuisine dishes and the best seafood recipes. You have the right to have a tasting of whatever you want. On this occasion the host country is Colombia who will delight you with its typical food in its different regions.
             </p>
             <a href="#" class="btn btn-link text-danger">Price</a>
-            <a href="#" class="btn btn-dark text-warning">Go somewhere</a>
+            <a href="/details.html" class="btn btn-dark text-warning">See More</a>
           </div>
         </div>
       </div>
 
     </section>
 
-  </main>
+  
 
   <footer>
     <div id="footer1" class="width=50 d-flex navbar bg-dark ">
 
       <div id="subfooter1" class="d-flex justify-content-around">
         <div>
-          <a href="http://www.facebook.com" class= "btn btn-dark"><img src="images/facebook.png"></a>
+          <a href="http://www.facebook.com" class= "btn btn-dark"><img src="images/facebook.png" alt="facebook"></a>
           
         </div>
       <div>
-        <a href="http://instagram.com/p/page/" class= "btn btn-dark"><img src="/images/instagram.png"></a>
+        <a href="http://instagram.com/p/page/" class= "btn btn-dark"><img src="/images/instagram.png" alt="instagram"></a>
       </div>
         <div>
-          <a href="https://api.whatsapp.com/send?phone=3115304611" class= "btn btn-dark "><img src="/images/whatsapp.png"></a>
+          <a href="https://api.whatsapp.com/send?phone=3115304611" class= "btn btn-dark"><img src="/images/whatsapp.png" alt="whatsapp"></a>
           <a ></a>
         </div>
       </div>
