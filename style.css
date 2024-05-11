@@ -99,8 +99,50 @@ form{
     border: solid 2px black;
     width: 95%;
 }
-    
+/* se ingresa nuevos estilos para el trabajo de DOM*/
 
+.tarjeta{
+    border: solid 5px blue;
+    background-color: rgb(223, 154, 154);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 3vh;
+    width: 23vw;
+    height: 63vh;
+}
 
+#imgtarjeta{
+    width: 20vw;
+}
 
+.tarjeta img{
+    width: 18vw;
+    height: 20vh;
+    margin-top: 3vh;
+    margin-bottom: 2vh;
+}
+#card1{
+    height: 260vh;
+}
 
+.incontainer img{
+    width: 70%;
+    margin-top: 4vh;
+    margin-bottom: 1vh;
+}
+
+.incontainer{
+    border: solid 3px green;
+    background-color: rgb(186, 136, 233);
+    width: 20%;
+    height: 62vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+margin-top: 1vh;
+margin-bottom: 2vh;
+margin-right: 2vw;
+border-radius: 4vh;
+}
