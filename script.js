@@ -220,7 +220,8 @@ function ingresoNuevaTarjeta(oncont,incontainer) {
     //nuevaTarjeta.className="incontainer"
    nuevaTarjeta.classList.add("incontainer")
    
-   nuevaTarjeta.innerHTML=  `<img src="${incontainer.image}" alt="...">
+   nuevaTarjeta.innerHTML=  `
+   <img src="${incontainer.image}" alt="...">
    <h5>${incontainer.name}</h5>
    <p class="card-text">${incontainer.date}</p>
    <p class="card-text">${incontainer.category}</p>
@@ -228,7 +229,8 @@ function ingresoNuevaTarjeta(oncont,incontainer) {
    <div class"botones d-flex">
    <a href="#" class="btn btn-link text-danger">${incontainer.price}</a>
   <a href="/details.html" class="btn btn-dark text-warning">See More</a>
-  </div>`
+  </div>
+  `
     
    oncont.appendChild(nuevaTarjeta)
 

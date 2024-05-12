@@ -134,7 +134,7 @@ form{
 
 .incontainer{
     border: solid 3px green;
-    background-color: rgb(186, 136, 233);
+    background-color: rgba(18, 238, 84, 0.705);
     width: 20%;
     height: 62vh;
     display: flex;
@@ -145,4 +145,26 @@ margin-top: 1vh;
 margin-bottom: 2vh;
 margin-right: 2vw;
 border-radius: 4vh;
+}
+#pruebapadre{
+    width: 100%;
+    background-color: rgba(100, 100, 105, 0.26);
+}
+
+@media (max-width: 768px) {
+    .incontainer{
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(197, 163, 230);
+    }
+    #pruebapadre{
+        width: 100%;
+        display: flex;
+        
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(148, 148, 236);
+    }
 }
