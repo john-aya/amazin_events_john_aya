@@ -105,74 +105,35 @@
   </section>
 
 
-  <!--esta es la seccion de los checkpoints y el search -->
-  <main>
-    
-      <div id="bigcheck" class="d-flex justify-content-center bg-dark text-white mb-2">
-        <div id="check1" class="d-flex justify-content-between">
-          <div id="allcheck1" class="d-flex justify-content text-warning">
-            <div class="form-check form-check-inline">
-              <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-              <label class="form-check-label" for="inlineCheckbox1">category</label>
-            </div>
-            <div class="form-check form-check-inline">
-              <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-              <label class="form-check-label" for="inlineCheckbox2">category</label>
-            </div>
-            <div class="form-check form-check-inline">
-              <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option2">
-              <label class="form-check-label" for="inlineCheckbox3">category</label>
-            </div>
+  <!--esta es la seccion de los check-box y la barra de  search -->
 
-            <div class="form-check form-check-inline">
-              <input class="form-check-input" type="checkbox" id="inlineCheckbox4" value="option2">
-              <label class="form-check-label" for="inlineCheckbox4">category</label>
-            </div>
-          </div>
 
-          <form id="form1" class="d-flex justify-content-end" role="search">
-            <input class="form" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success text-warning" type="submit">Search</button>
-          </form>
-
-        </div>
+  <div id="bigcheck" class="d-flex justify-content-center bg-dark text-white mb-2">
+    <div id="check1" class="d-flex justify-content-between">
+      <div id="allcheck" class=" d-flex justify-content text-warning">
+        <!--espacio de los check dinamicos en Js-->
       </div>
-    
 
+      <form class=" d-flex justify-content-end" role="search">
+        <input id="searching" type="text" class="form bg-primary d-flex justify-content-end" role="search"
+          placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success text-warning" type="submit">Search</button>
+      </form>
 
-    <!--aqui termina la seccion de los checkpoints y el search -->
-
-    <div id="pruebapadre">
-      <div class="oncont d-flex flex-column flex-md-row container-md d-flex flex-wrap justify-content-around container-fluid link active text-warning link active text-danger">
-    
-        <!-- Las tarjetas se agregarán aquí -->
-    
-      </div>
     </div>
-    
+  </div>
 
-  </main>
+   <!--aqui termina la seccion de los check-box y el search 
 
-  <footer>
-    <div id="footer1" class="width=50 d-flex navbar bg-dark ">
+ es una opcion de ubicar las tarjetas -->
 
-      <div id="subfooter1" class="d-flex justify-content-around">
-        <div>
-          <a href="http://www.facebook.com" class="btn btn-dark"><img src="images/facebook.png" alt="facebook"></a>
+  <div class="oncont d-flex flex-column flex-md-row container-md d-flex flex-wrap justify-content-around container-fluid link active text-warning link active text-danger">
 
-        </div>
-        <div>
-          <a href="http://instagram.com/p/page/" class="btn btn-dark"><img src="/images/instagram.png" alt="instagram"></a>
-        </div>
-        <div>
-          <a href="https://api.whatsapp.com/send?phone=3115304611" class="btn btn-dark "><img
-              src="/images/whatsapp.png" alt="whatsapp"></a>
-          <a></a>
-        </div>
-      </div>
-
-      <div class="ms-auto p-1 text-warning">COHORT: John Fredy Aya</div>
-    </div>
+    <!-- Las tarjetas se agregarán aquí -->
+  </div>
+  <div id="no-results-message" class="text-center text-white mt-2" style="display: none;">
+    Sorry, we couldn't find that search :`(
+  </div>
 
 
   </footer>

@@ -73,7 +73,7 @@ transform: scale(1-2);
 }
 
 
-form{
+#searching{
     width: 50%;
     
 }
@@ -167,4 +167,18 @@ border-radius: 4vh;
         align-items: center;
         background-color: rgb(148, 148, 236);
     }
+}
+#allcheck{
+    border: solid 5px green ;
+}
+
+#no-results-message{
+    border: solid red 5px;
+    background-color: rgb(89, 89, 211);
+    border-radius: 15px;
+    width: 50%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
