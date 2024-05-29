@@ -199,7 +199,7 @@ let eventos = general.eventos
 console.log(eventos);
 
 // Filtrar eventos que tienen fecha mayor a "2023-01-01"
-let eventos = general.eventos.filter(evento => new Date(evento.date) > new Date(general.fechaActual));
+let eventos2 = general.eventos.filter(evento => new Date(evento.date) > new Date(general.fechaActual));
 console.log(eventos);
 
 let oncont = document.querySelector(".oncont");
